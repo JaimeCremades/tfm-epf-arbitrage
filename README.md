@@ -21,14 +21,14 @@ Se implementan y comparan siete modelos de predicción pertenecientes a cuatro f
 | BNN con MC Dropout | Red bayesiana probabilística | 12.62 | 90.1% |
 
 ## Estructura del repositorio
-
+```
 ├── 01_pipeline_datos.ipynb         # Descarga y preprocesamiento del dataset
 ├── 02_eda.ipynb                    # Análisis exploratorio de datos
 ├── 03_modelos.ipynb                # Entrenamiento y evaluación de modelos
 ├── 04_arbitraje.ipynb              # Estrategia de arbitraje energético
 ├── 05_comparaciones.ipynb          # Unificación de predicciones
 └── README.md
-
+```
 ## Dataset
 
 El dataset cubre el periodo enero 2020 — febrero 2026 con frecuencia horaria. Las fuentes de datos son:
@@ -38,7 +38,7 @@ El dataset cubre el periodo enero 2020 — febrero 2026 con frecuencia horaria. 
 - **Open-Meteo** — temperatura y velocidad del viento previstas
 - **Investing.com** — precio del gas natural TTF y CO₂
 
-El dataset final contiene 27 variables y 54.072 registros horarios.
+El dataset final contiene 26 variables y 54.072 registros horarios.
 
 ## Requisitos
 
