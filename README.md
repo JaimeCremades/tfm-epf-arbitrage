@@ -22,11 +22,12 @@ Se implementan y comparan siete modelos de predicción pertenecientes a cuatro f
 
 ## Estructura del repositorio
 ```
-├── 01_pipeline_datos.ipynb         # Descarga y preprocesamiento del dataset
-├── 02_eda.ipynb                    # Análisis exploratorio de datos
-├── 03_modelos.ipynb                # Entrenamiento y evaluación de modelos
-├── 04_arbitraje.ipynb              # Estrategia de arbitraje energético
-├── 05_comparaciones.ipynb          # Unificación de predicciones
+├── 01_pipeline_datos.ipynb      # Descarga del dataset + variables previstas + preprocesamiento
+├── 02_eda.ipynb                 # Análisis exploratorio de datos
+├── 03_modelos.ipynb             # Entrenamiento y evaluación de los 7 modelos (Google Colab A100)
+├── 04_arbitraje.ipynb           # Estrategia de arbitraje energético con batería
+├── 05_resultados.ipynb          # Unificación de predicciones, métricas y visualización
+├── grafico_peak_shaving.py      # Script auxiliar para el gráfico de peak shaving
 └── README.md
 ```
 ## Dataset
